@@ -49,5 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-    public void thisIsANewMethod() { }
+    public void thisIsANewMethod() {
+        System.out.print("Hallo Carina");
+    }
 }
