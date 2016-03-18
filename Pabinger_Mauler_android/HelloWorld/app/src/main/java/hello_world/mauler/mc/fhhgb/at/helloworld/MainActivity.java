@@ -43,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int idNew = item.getItemId();
 
+        System.out.print("Mark");
+
         //noinspection SimplifiableIfStatement
         if (idNew == R.id.action_settings) {
             return false;
