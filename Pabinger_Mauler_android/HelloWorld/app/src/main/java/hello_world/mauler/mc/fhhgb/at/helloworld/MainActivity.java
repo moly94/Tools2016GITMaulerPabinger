@@ -50,7 +50,8 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
     public void thisIsANewMethod() {
-		int i = 0; System.out.print(i);
+		// bugfix
+		int i = 0; System.out.print(i + 1);
         System.out.print("Hallo Carina");
 	}
 }
