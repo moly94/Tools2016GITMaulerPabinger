@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
     public void thisIsANewMethod() {
 		// bugfix
 		int i = 0; System.out.print(i + 1);
+		for (;i < 10; i++) {System.out.print(i + 1);}
         System.out.print("Hallo Carina");
 	}
 }
