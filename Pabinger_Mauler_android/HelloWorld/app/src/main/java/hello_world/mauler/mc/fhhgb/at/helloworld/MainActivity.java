@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
 		// bugfix
 		int i = 0; System.out.print(i + 1);
 		for (;i < 10; i++) {System.out.print(i + 1);}
+		i = 0; /* reset */
         System.out.print("Hallo Carina");
 	}
 }
